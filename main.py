@@ -169,7 +169,7 @@ async def main():
                     )
 
             loaded_books += 1
-        await print_info_message(scripture_title, is_old_testament_audio, progress)
+        await print_info_message(scripture_title, is_old_testament_audio, 100)
     except Exception as e:
         print(f"{Fore.RED}{e}")
 
